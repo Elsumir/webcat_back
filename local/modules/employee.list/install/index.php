@@ -1,7 +1,7 @@
 <?php
 use Bitrix\Main\ModuleManager;
 
-class employee_list extends CModule
+class employee_list_my extends CModule
 {
     public function __construct()
     {
