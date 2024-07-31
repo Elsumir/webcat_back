@@ -1,7 +1,7 @@
 <?php
 use Bitrix\Main\ModuleManager;
 
-class employee_list_my extends CModule
+class employee_list extends CModule
 {
     public function __construct()
     {
@@ -36,7 +36,6 @@ class employee_list_my extends CModule
         ModuleManager::unRegisterModule($this->MODULE_ID);
 
 
-        $DB->Query("DROP TABLE IF EXISTS custom_mytable");
     }
 }
 ?>
