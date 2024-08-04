@@ -1,0 +1,12 @@
+.wrap {
+  display: flex;
+}
+
+p {
+  margin: 5px;
+}
+
+.wrap p,
+.wrap .bottom {
+  margin-right: 15px;
+}

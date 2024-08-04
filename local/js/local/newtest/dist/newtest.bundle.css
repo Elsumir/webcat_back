@@ -1,0 +1,25 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+p {
+  margin: 5px;
+}
+
+.wrap p,
+.wrap .bottom {
+  margin-right: 15px;
+}
